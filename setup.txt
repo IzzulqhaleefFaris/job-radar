@@ -1,0 +1,23 @@
+When you set up the project on your PC later:
+
+Shell
+git clone https://github.com/IzzulqhaleefFaris/job-radar.git
+cd job-radar
+ 
+python -m venv venv
+source venv/bin/activate
+ 
+pip install -r requirements.txt
+
+All the required libraries will be installed automatically without manually running:
+
+Shell
+pip install streamlit
+pip install psycopg2-binary
+pip install python-telegram-bot
+...
+
+After creating it, run:
+
+Shell
+git status
