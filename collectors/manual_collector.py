@@ -1,4 +1,4 @@
-from base import Job
+from collectors.base import Job
 
 
 def collect():
@@ -28,6 +28,15 @@ def collect():
             job_url="https://example.com/job3",
             source="Manual",
         ),
+        Job(
+            title="Cloud Consultant",
+            company="TM",
+            location="Cyberjaya",
+            salary="RM7000",
+            job_url="https://example.com/job4",
+            source="Manual"
+        )
+
     ]
 
     return jobs

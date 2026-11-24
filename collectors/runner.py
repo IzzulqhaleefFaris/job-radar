@@ -1,4 +1,4 @@
-from manual_collector import collect
+from collectors.manual_collector import collect
 from services.job_service import save_job
 from services.telegram_service import send_job_notification
 

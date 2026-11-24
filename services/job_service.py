@@ -6,7 +6,8 @@ def save_job(job):
     conn = psycopg2.connect(
         host="localhost",
         database="jobradar",
-        user="postgres"
+        user="postgres",
+        password="Izzulqf01"
     )
 
     cur = conn.cursor()
